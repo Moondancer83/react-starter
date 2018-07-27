@@ -1,0 +1,54 @@
+$primary-light: #61DAFB; //rgb(97, 218, 251);
+$primary-dark: #2B2C2F;  //rgb(43, 44, 47);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: $primary-dark;
+    color: $primary-light;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#intro {
+    width: 675px;
+    margin: auto;
+    padding-top: 50px;
+
+    h1 {
+        margin: -125px 0px 0 328px;
+        letter-spacing: 38px;
+        text-transform: capitalize;
+    }
+
+    p {
+        margin-left: 25px;
+        letter-spacing: 1px;
+        font-size: larger;
+    }
+
+    a {
+        color: $primary-light;
+        text-decoration: none;
+    }
+}
+
+#github-logo {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    background-image: url(../../../assets/github_logo.png);
+    background-size: contain;
+    border-radius: 48px;
+    border: 2px solid $primary-light;
+}
+
+#react-logo {
+    width: 675px;
+    height: 375px;
+    background-image: url(../../../assets/react_logo.png);
+}
